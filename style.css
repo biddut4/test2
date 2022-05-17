@@ -1579,27 +1579,32 @@ a.free-consultation {
 
 .about_us{
     background-color: #FAFAFA;
-    margin-top: 55px;
+    padding-top: 10.1rem;
 }
 .about_us .about_row{
     
     display: flex;
     margin-bottom: 6.5rem;
+    justify-content: center;
+}
+.about_container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .about_us .about_row .left_side_about{
-    width: 50%;
+    width: 65.9rem;
     padding: 6.4rem 5.3rem 5.3rem 5.3rem;
     background-color: #fff;
 }
 .about_us .about_row .left_side_about p{
     font-style: normal;
-font-weight: 400;
-font-size: 1.6rem;
-line-height: 2.7rem;
-color: #748B91;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #748B91;
 }
 .about_us .about_row .right_side_about{
-        width: 50%;
+        width: 48.1rem;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1617,24 +1622,21 @@ color: #748B91;
     text-transform: uppercase;
     color: #07B3C5;
     text-align: center;
+    margin-bottom: 4rem;
 }
 .about_us .about_title span{
     font-weight: 600;
     color: #193C48;
 }
-.about_us .about_content{
-    max-width: 1064px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 4rem;
-}
-.about_us .about_content p{
+.about_us .about_title p{
     font-style: normal;
-font-weight: 500;
-font-size: 1.6rem;
-line-height: 3.2rem;
-color: #748B91;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: #748B91;
+    max-width: 106.3rem;
+    margin: 0 auto;
+    text-align: center;
 }
 img.bg_one {
     position: absolute;
@@ -1649,6 +1651,17 @@ img.bg_two {
 }
 
 @media only screen and (max-width: 750px){
-    
+    .about_us .about_row {
+        flex-wrap: wrap;
+    }
+    .about_us .about_row .right_side_about {
+        height: 64.8rem;
+    }
+}
+@media only screen and (max-width: 480px){
+
+.about_us .about_row .right_side_about {
+    height: 50.8rem;
+    }
 }
 
