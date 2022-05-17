@@ -1603,6 +1603,12 @@ a.free-consultation {
     line-height: 2.7rem;
     color: #748B91;
 }
+.left_side_about p:last-child {
+    margin-bottom: 0;
+}
+.left_side_about p {
+    margin-bottom: 2.4rem;
+}
 .about_us .about_row .right_side_about{
         width: 48.1rem;
         background-size: cover;
